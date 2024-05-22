@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  height: 100vh;
+  padding: 70px 0;
+}
+.container .prodForm {
+  border: 1px solid gray;
+  padding: 20px;
+  box-shadow: 1px 1px 1px gainsboro;
+  border-radius: 10px;
+}
+.container .prodForm .formItems {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.container .prodForm .formItems label {
+  width: 30%;
+  text-align: right;
+}
+.container .prodForm .formItems label::after {
+  content: " :";
+}
+.container .prodForm .formItems input, .container .prodForm .formItems textarea {
+  width: 70%;
+  border: 1px solid orange;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.container .prodForm .formItems input:focus, .container .prodForm .formItems textarea:focus {
+  outline: none;
+  border: 2px solid orange;
+}
+.container .prodForm .submitBtn {
+  text-align: center;
+  margin-top: 20px;
+}
+.container .prodForm .submitBtn button {
+  padding: 5px 20px;
+  background-color: orange;
+  color: white;
+  border-color: transparent;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.container .prodForm .submitBtn button:hover {
+  background-color: orangered;
+}/*# sourceMappingURL=index.css.map */
